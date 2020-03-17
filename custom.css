@@ -4,17 +4,21 @@ body {
   color: #1B1F3B;
 }
 
-.bg-red {
-  background-color: #FB8F8A;
+.bg-orange {
+  background-color: #ff6b46;
 }
+
 .bg-blue {
-  background-color: #375ABB;
+  background-color: #0d6fec;
 }
 .txt-blue {
   color: #375ABB;
 }
 .txt-red {
   color: #FB8F8A;
+}
+.txt-white {
+  color: white;
 }
 .font-bold {
   font-weight: 800;
@@ -51,6 +55,7 @@ body {
 .step-case {
   width: 70%;
 }
+
 .home-message .title {
   font-size: 48px; 
 }
@@ -71,4 +76,70 @@ body {
 }
 .border-top-large {
   border-top: solid 10px #FB8F8A;
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 700; /* semibold */
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 700; /* semibold */  
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700; /* semibold */  
+}
+
+p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.appel-title {
+  font-size: 22px;
+  font-weight: normal;
+  color: white;
+  background-color: #ff6b46;
+}
+
+.highlight-blue {
+  color: #0d6fec;
+}
+
+.highlight-orange {
+  color: #ff6b46;
+}
+
+.lead {
+  font-size: 22px;
+  font-weight: 500; /* medium */
+}
+
+a {
+  color: rgb(27, 31, 59);
+  text-decoration: underline;
+  text-decoration-color: #ff6b46;
+}
+
+a.nav-link {
+  text-decoration: none;
+}
+
+a.btn {
+  text-decoration: none;
+}
+
+.underline-blue {
+  text-decoration: underline;
+  text-decoration-color: #0d6fec;
+  text-decoration-thickness: 3px;
+}
+
+.overline-blue {
+  text-decoration: overline;
+  text-decoration-color: #0d6fec;
+  text-decoration-thickness: 3px;
 }
