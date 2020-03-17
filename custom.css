@@ -45,3 +45,8 @@ body {
 .step-case {
   width: 70%;
 }
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600; /* semibold */
+}
