@@ -1,8 +1,9 @@
 body {
   font-family: 'Work Sans', sans-serif;
-  background-color: #f3f3f3;
+  background-color: white;
   color: #1B1F3B;
 }
+
 .bg-red {
   background-color: #FB8F8A;
 }
@@ -30,6 +31,11 @@ body {
 .box-title-side {
   font-size: 20px;
 }
+.highlight {
+  background-color: #FB8F8A;
+  color: white;
+  padding:5px;
+}
 .footer {
   left: 0;
   width: 100%;
@@ -39,9 +45,30 @@ body {
 .nav-pills .nav-link.active {
   border-bottom: solid 2px #FB8F8A;
   background-color: transparent;
-  color: #375ABB;
+  color: #1B1F3B;
   border-radius: 0;
 }
 .step-case {
   width: 70%;
+}
+.home-message .title {
+  font-size: 48px; 
+}
+.home-message p {
+  font-size: 24px;
+  line-height: 50px;
+}
+.manifeste p {
+  font-size: 18px;
+  line-height: 35px;
+  text-align: justify;
+}
+.que-faire h3 {
+  font-weight: 600;
+}
+.rounded-50 { 
+  border-radius: 50px;
+}
+.border-top-large {
+  border-top: solid 10px #FB8F8A;
 }
