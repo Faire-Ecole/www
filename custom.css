@@ -129,22 +129,21 @@ a.btn {
   text-decoration: none;
 }
 
-.underline-blue {
-  text-decoration: underline;
-  text-decoration-color: #0d6fec;
-  text-decoration-thickness: 3px;
+.border-bottom-blue {
+  
+  border-bottom: solid 5px #0d6fec; 
+  
 }
 
-.overline-blue {
-  text-decoration: overline;
-  text-decoration-color: #0d6fec;
-  text-decoration-thickness: 3px;
+.border-top-blue {
+  border-top: solid 5px #0d6fec; 
+  
 }
 
 .btn-card {
   border-radius: 5px;
   border-color: #0d6fec;
-  border-width: 3px;
+  border-width: 2px;
   background-color: white;
   color: #0d6fec;
 }
@@ -167,6 +166,10 @@ a.btn {
 .card-title {
   font-weight: 700; /* semibold */  
   text-align: center !important;
+  font-size: 16px;
+}
+dl {
+  font-size:12px;
 }
 
 dt {
