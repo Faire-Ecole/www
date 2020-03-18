@@ -143,3 +143,36 @@ a.btn {
   text-decoration-color: #0d6fec;
   text-decoration-thickness: 3px;
 }
+
+.btn-card {
+  border-radius: 5px;
+  border-color: #0d6fec;
+  border-width: 3px;
+  background-color: white;
+  color: #0d6fec;
+}
+
+.card {
+  background-color: #0d6fec;
+  border-color: #0d6fec;
+  border-radius: 10px;
+  border-width: 10px;
+}
+
+.card-body {
+  background-color: white;
+  border-color: white;
+  border-radius: 5px;
+  border-width: 3px;
+  color: #0d6fec;
+}
+
+.card-title {
+  font-weight: 700; /* semibold */  
+  text-align: center !important;
+}
+
+dt {
+  font-variant-caps: small-caps;
+  font-weight: 500; /* medium */
+}
