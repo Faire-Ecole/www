@@ -1,5 +1,5 @@
 body {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Public Sans", "Work Sans", sans-serif;
   background-color: white;
   color: #1b1f3b;
 }
@@ -209,6 +209,10 @@ dl {
 dt {
   font-variant-caps: small-caps;
   font-weight: 500; /* medium */
+  text-transform: lowercase;
+}
+dd {
+  font-size: 120%;
 }
 
 .illu_card {
