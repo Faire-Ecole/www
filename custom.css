@@ -209,6 +209,10 @@ dl {
 dt {
   font-variant-caps: small-caps;
   font-weight: 500; /* medium */
+  text-transform: lowercase;
+}
+dd {
+  font-size: 120%;
 }
 
 .illu_card {
