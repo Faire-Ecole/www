@@ -216,3 +216,27 @@ dt {
   height: auto;
   margin-bottom: -10px;
 }
+
+.appel-mobilisation-section--content {
+  position: relative;
+}
+
+.appel-mobilisation-section--content.is--closed {
+  max-height: 10em;
+  overflow: hidden;
+}
+
+.appel-mobilisation-section--toggleButton {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 70%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}

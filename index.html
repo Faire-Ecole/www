@@ -181,7 +181,7 @@
           <!-- keep empty -->
         </div>
       </div>
-      <div class="row">
+      <div class="row appel-mobilisation-section--content">
         <div class="col-md-6">
           <p>Nous vivons depuis quelques jours une situation tout à fait exceptionnelle. Parmi les multiples décisions prises, il y a notamment celle de fermer écoles, collèges et lycées. 880 000 enseignant.e.s et 12 millions d'élèves sont donc invité.e.s à faire cours depuis chez eux.<br><br>
 
@@ -195,14 +195,26 @@
         </div>
         <div class="col-md-6">
           <p>
-            Confiants dans la diversité des talents et l’envie de participer à l’effort national de mobilisation et de solidarité, noussouhaitons construire avec vous une plateforme gratuite, libre, collaborative et contributive autour des principes du co-apprentissage et de la formation par les pairs. Organisée autour d’un recensement des compétences numériques, techniques et pédagogique, de la mise en relation avec des enseigants qui le demandent, ainsi que d’un calendrier partagé de session d'échanges de pratiques, la plateforme continuitepedagogique.org veut aider les enseignants à répondre facilement, rapidement et efficacement à leurs besoins immédiats de formation.<br><br>
+            Confiants dans la diversité des talents et l’envie de participer à l’effort national de mobilisation et de solidarité, nous souhaitons construire avec vous une plateforme gratuite, libre, collaborative et contributive autour des principes du co-apprentissage et de la formation par les pairs. Organisée autour d’un recensement des compétences numériques, techniques et pédagogique, de la mise en relation avec des enseigants qui le demandent, ainsi que d’un calendrier partagé de session d'échanges de pratiques, la plateforme continuitepedagogique.org veut aider les enseignants à répondre facilement, rapidement et efficacement à leurs besoins immédiats de formation.<br><br>
             
             Tous les enseignants le savent: enseigner, c'est plus que transmettre, c’est créer des liens fondamentaux pour le futur. Une communauté. Avec ses élèves. Leurs parents. Ses collègues. Cette communauté peut et doit continuer de vivre. Les outils sont là. Aidons chacun·e à s’en saisir, à sa façon.<br><br>
             
             <span class="highlight-orange font-semi-bold">Nous appelons donc à une mobilisation citoyenne pour aider les enseignants à se former rapidement aux usages pédagogiques du numérique.</span></p>
         </div>
+        <div class="appel-mobilisation-section--toggleButton">
+          <button type="button">
+            lire la suite
+          </button>
+        </div>
       </div>
     </section>
+    <script>
+      document.querySelector('.appel-mobilisation-section--content').classList.add('is--closed');
+      document.querySelector('.appel-mobilisation-section--toggleButton').addEventListener('click', function() { 
+        this.remove();
+        document.querySelector('.appel-mobilisation-section--content').classList.remove('is--closed');
+      });
+    </script>
 
     <section id="que-faire">
       <h2 class="text-center my-5 pb-2 border-bottom-blue mx-auto " style="width:12%;">Vous êtes</h2>
