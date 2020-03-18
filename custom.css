@@ -65,6 +65,9 @@ body {
   line-height: 35px;
   text-align: justify;
 }
+.opacity-40 {
+  opacity: 0.4;
+}
 .que-faire h3 {
   font-weight: 600;
 }
@@ -94,7 +97,9 @@ p {
   font-size: 16px;
   font-weight: 500;
 }
-
+#appel-mobilisation-section p {
+  text-align: justify;
+}
 .appel-title {
   display: inline-block;
   font-size: 22px;
