@@ -14,9 +14,6 @@ body {
 .txt-blue {
   color: #375ABB;
 }
-.txt-red {
-  color: #FB8F8A;
-}
 .txt-white {
   color: white;
 }
@@ -36,7 +33,7 @@ body {
   font-size: 20px;
 }
 .highlight {
-  background-color: #FB8F8A;
+  background-color: #ff6b46;
   color: white;
   padding:5px;
 }
@@ -47,7 +44,7 @@ body {
   color: white;
 }
 .nav-pills .nav-link.active {
-  border-bottom: solid 2px #FB8F8A;
+  border-bottom: solid 2px #ff6b46;
   background-color: transparent;
   color: #1B1F3B;
   border-radius: 0;
@@ -75,7 +72,7 @@ body {
   border-radius: 50px;
 }
 .border-top-large {
-  border-top: solid 10px #FB8F8A;
+  border-top: solid 10px #ff6b46;
 }
 
 .navbar-brand {
