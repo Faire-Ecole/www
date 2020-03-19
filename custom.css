@@ -266,3 +266,14 @@ dd {
   background-color: #ff6b46;
   color: white;
 }
+
+.legal p {
+  font-size: 20px;
+  line-height: 40px;
+  text-align: justify
+}
+.legal h4 {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-weight: 800;
+}
