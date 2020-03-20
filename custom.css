@@ -279,4 +279,5 @@ dd {
 
 .soutiens {
   border: solid 4px #0d6fec;
+  min-height: 200px;
 }
