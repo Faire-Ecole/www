@@ -94,7 +94,7 @@ h2 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
 }
 #appel-mobilisation-section p {
@@ -146,6 +146,9 @@ a.btn {
 
 .border-top-blue {
   border-top: solid 5px #0d6fec;
+}
+.border-cp {
+  border: solid 3px #0d6fec;
 }
 
 .card-buttonbar {
@@ -280,4 +283,8 @@ dd {
 .soutiens {
   border: solid 4px #0d6fec;
   min-height: 200px;
+}
+
+li {
+  list-style-type: none;
 }
