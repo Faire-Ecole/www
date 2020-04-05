@@ -94,7 +94,7 @@ h2 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 500;
 }
 #appel-mobilisation-section p {
@@ -108,7 +108,7 @@ p {
   background-color: #ff6b46;
 
   padding: 6px 10px;
-  margin-left: -10px;
+  margin-left: -10px;ƒ
 
   /* min-width: 240px; */
 }
@@ -139,9 +139,15 @@ a.nav-link {
 a.btn {
   text-decoration: none;
 }
+a.btn:hover {
+  opacity: 0.8;
+}
 
 .border-bottom-blue {
   border-bottom: solid 5px #0d6fec;
+}
+.a.border-bottom-blue:hover {
+  opacity:0.8;
 }
 
 .border-top-blue {
@@ -272,7 +278,7 @@ dd {
 .legal p {
   font-size: 20px;
   line-height: 40px;
-  text-align: justify
+  text-align: justify;
 }
 .legal h4 {
   margin-top: 40px;
@@ -282,9 +288,35 @@ dd {
 
 .soutiens {
   border: solid 4px #0d6fec;
-  min-height: 200px;
+  min-height: 220px;
+}
+#soutien .card {
+  background-color: transparent;
+  border: none;
+  padding:10px;
 }
 
 li {
   list-style-type: none;
+}
+#engagements ul {
+  padding:25px;
+}
+#engagements li {
+  margin-bottom:20px;
+}
+#engagements li:before {
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em; /* same as padding-left set on li */
+}
+#intro-enseignants li:before {
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  margin-right:1em;
+  width: 1.3em; /* same as padding-left set on li */
 }
