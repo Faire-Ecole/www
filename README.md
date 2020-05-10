@@ -9,4 +9,4 @@ Si vous êtes développeurs, rendez-vous dans ce [canal de conversation](https:/
 
 # Licence juridique
 
-Le code source de ce site web est régi par les termes de la licence MIT.
+Le code source de ce site web est régi par les termes de la [licence MIT](https://github.com/Continuite-Pedagogique/www/blob/master/LICENSE).
