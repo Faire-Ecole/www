@@ -5,7 +5,7 @@ Ce dépôt contient le code du site
 
 # Comment aider ?
 
-Si vous êtes développeurs, rendez-vous dans ce [canal de conversation](https://chat.volontaires.continuitepedagogique.org/channel/tech-room).
+Si vous êtes développeurs, rendez-vous dans ce [canal de conversation](https://chat.faire-ecole.org/channel/tech-room).
 
 # Licence juridique
 
