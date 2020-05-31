@@ -1,7 +1,7 @@
 # Introduction
 
 Ce dépôt contient le code du site
-[www.continuitepedagogique.org](https://www.continuitepedagogique.org).
+[https://jeveuxaider.faire-ecole.org](https://jeveuxaider.faire-ecole.org).
 
 # Comment aider ?
 
